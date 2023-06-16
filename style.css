@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+body{
+    background-color: #f6f6f6;
+}
+#watch{
+    height: 200px;
+    z-index: -5;
+}
+.watch_box{
+    width: 500px;
+    height: 350px;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    position: relative;
+}
+#hours, #minutes, #seconds{
+    height: 90px;
+    width: 5px;
+    border-radius: 3px;
+    background: linear-gradient(180deg, rgba(0,0,0,1) 50%, #f1f1f100 50%);
+    position: absolute;
+    left: 248px;
+    top: 54px;
+    z-index: 1;
+}
+#minutes{
+    width: 3px;
+    height: 120px;
+    left: 249px;
+    top: 39px;
+    z-index: 2;
+}
+#seconds{
+    width: 3px;
+    height: 120px;
+    left: 249px;
+    top: 39px;
+    background: linear-gradient(180deg, rgb(255, 0, 0) 50%, #f1f1f100 50%);
+    z-index: 3;
+}
